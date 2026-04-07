@@ -1,32 +1,46 @@
-# SolidStart
+# notaproblem.dev
 
-Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
+Simple Solid.js landing page built with Vite.
 
-## Creating a project
+## Requirements
 
-```bash
-# create a new project in the current directory
-npm init solid@latest
+- Node.js 22+
+- Bun
 
-# create a new project in my-app
-npm init solid@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Install
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+bun install
 ```
 
-## Building
+## Development
 
-Solid apps are built with _presets_, which optimise your project for deployment to different environments.
+```bash
+bun run dev
+```
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different preset, add it to the `devDependencies` in `package.json` and specify in your `app.config.js`.
+## Build
 
-## This project was created with the [Solid CLI](https://github.com/solidjs-community/solid-cli)
+```bash
+bun run build
+```
+
+## Preview production build
+
+```bash
+bun run preview
+```
+
+## Cloudflare Pages local dev
+
+Build first:
+
+```bash
+bun run build
+```
+
+Then run:
+
+```bash
+npx wrangler pages dev dist --compatibility-flag=nodejs_compat
+```
