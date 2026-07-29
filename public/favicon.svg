@@ -1,4 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="4" fill="#000" />
-  <path d="M11 7h4v8.4c1.9-3 4.5-4.4 8-4.4 5 0 8 3.3 8 8.5V25h-4v-5.2c0-3.2-1.7-5.4-4.8-5.4-3.4 0-5.2 2.3-5.2 5.6V25h-4z" fill="#fff" />
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title description">
+  <title id="title">notaproblem.dev favicon</title>
+  <desc id="description">A compact square favicon with np dot above dev.</desc>
+  <style>
+    .background { fill: #efe9dd; }
+    .foreground { fill: #161616; }
+
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #050505; }
+      .foreground { fill: #f3f3f3; }
+    }
+  </style>
+  <rect class="background" width="64" height="64" rx="7"/>
+  <g class="foreground" font-family="'Space Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="26" font-weight="700" text-anchor="middle">
+    <text x="32" y="24">np.</text>
+    <text x="32" y="54">dev</text>
+  </g>
 </svg>

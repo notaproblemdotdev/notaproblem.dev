@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">notaproblem.dev — square wordmark</title>
+  <desc id="description">A square black typographic logo with not a, problem, and an indented dot dev, all set in one monospace size and weight.</desc>
+  <rect width="1024" height="1024" rx="112" fill="#050505"/>
+  <g fill="#f3f3f3" font-family="'Space Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="220" font-weight="700">
+    <text x="48" y="320">not a</text>
+    <text x="48" y="565">problem</text>
+    <text x="48" y="810" xml:space="preserve">   .dev</text>
+  </g>
+</svg>

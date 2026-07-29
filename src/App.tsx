@@ -122,6 +122,8 @@ export default function App() {
               {t("hero.description")}
               <br />
               {t("hero.descriptionSuffix")}
+              <br />
+              /<a class="signature-link" href="https://www.linkedin.com/in/piotrgredowski" target="_blank" rel="noreferrer" aria-label="Piotr on LinkedIn">P</a>iot<a class="signature-link" href="https://github.com/piotrgredowski" target="_blank" rel="noreferrer" aria-label="Piotr on GitHub">r</a>
             </p>
 
             <div class="actions">

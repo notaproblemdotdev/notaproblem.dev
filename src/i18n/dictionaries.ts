@@ -18,7 +18,7 @@ export function localeFromPathname(pathname: string): Locale | undefined {
 export const dictionaries: Record<Locale, Record<string, string>> = {
   en: {
     "site.name": "notaproblem.dev",
-    "hero.tagline": "founded to build my own products.",
+    "hero.tagline": "founded to build products people enjoy.",
     "hero.description":
       "If you have the idea I like - I can also develop apps for you.",
     "hero.descriptionSuffix": "That's it. See you.",
@@ -33,7 +33,7 @@ export const dictionaries: Record<Locale, Record<string, string>> = {
   },
   pl: {
     "site.name": "notaproblem.dev",
-    "hero.tagline": "powstało, żebym mógł tworzyć własne produkty.",
+    "hero.tagline": "founded to build products people enjoy.",
     "hero.description":
       "Jeśli masz ciekawy pomysł, a ja czas - to stworzę aplikację również dla Ciebie.",
     "hero.descriptionSuffix": "To tyle. Cześć.",

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4200" height="700" viewBox="0 0 4200 700" role="img" aria-labelledby="title description">
+  <title id="title">notaproblem.dev LinkedIn banner</title>
+  <desc id="description">A paper-colored LinkedIn company banner with the square notaproblem.dev logo and the slogan founded to build products people enjoy.</desc>
+
+  <rect width="4200" height="700" fill="#efe9dd"/>
+
+  <g transform="translate(950 70) scale(0.546875)">
+    <rect width="1024" height="1024" rx="112" fill="#050505"/>
+    <g fill="#f3f3f3" font-family="'Space Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="220" font-weight="700">
+      <text x="48" y="320">not a</text>
+      <text x="48" y="565">problem</text>
+      <text x="48" y="810" xml:space="preserve">   .dev</text>
+    </g>
+  </g>
+
+  <g fill="#161616" font-family="'Space Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="120" font-weight="400">
+    <text x="1660" y="245">founded to build</text>
+    <text x="1660" y="379">products people enjoy.</text>
+  </g>
+</svg>
