@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280" viewBox="0 0 1280 1280" role="img" aria-labelledby="title description">
+  <title id="title">notaproblem.dev — elevated square wordmark</title>
+  <desc id="description">The black notaproblem.dev square wordmark, subtly elevated above a paper background with a soft shadow.</desc>
+
+  <defs>
+    <filter id="card-shadow" x="-15%" y="-15%" width="130%" height="145%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#000000" flood-opacity="0.20"/>
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000000" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="1280" fill="#efe9dd"/>
+  <g transform="translate(128 88)">
+    <rect width="1024" height="1024" rx="112" fill="#050505" filter="url(#card-shadow)"/>
+    <rect x="1" y="1" width="1022" height="1022" rx="111" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="2"/>
+    <g fill="#f3f3f3" font-family="'Space Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="220" font-weight="700">
+      <text x="48" y="320">not a</text>
+      <text x="48" y="565">problem</text>
+      <text x="48" y="810" xml:space="preserve">   .dev</text>
+    </g>
+  </g>
+</svg>

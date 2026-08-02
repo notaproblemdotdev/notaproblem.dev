@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396" role="img" aria-labelledby="title description">
+  <title id="title">notaproblem.dev — LinkedIn profile banner</title>
+  <desc id="description">A paper-toned LinkedIn profile banner with the notaproblem.dev wordmark on the right and the tagline on the left.</desc>
+  <rect width="1584" height="396" fill="#efe9dd"/>
+  <g fill="#050505" font-family="'Space Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="60" font-weight="400">
+    <text x="260" y="146">founded to build</text>
+    <text x="260" y="213">products people enjoy.</text>
+  </g>
+  <g transform="translate(1120 58) scale(0.2734375)">
+    <rect width="1024" height="1024" rx="112" fill="#050505"/>
+    <g fill="#f3f3f3" font-family="'Space Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="220" font-weight="700">
+      <text x="48" y="320">not a</text>
+      <text x="48" y="565">problem</text>
+      <text x="48" y="810" xml:space="preserve">   .dev</text>
+    </g>
+  </g>
+</svg>

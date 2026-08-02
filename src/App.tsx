@@ -43,6 +43,14 @@ function MailIcon() {
   );
 }
 
+function ArrowUpRightIcon() {
+  return (
+    <svg class="project-card__external-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" />
+    </svg>
+  );
+}
+
 function SunIcon() {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -56,6 +64,41 @@ function MoonIcon() {
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <path d="M9.37 5.51A7 7 0 0 0 17.5 14.6 7 7 0 1 1 9.37 5.5Z" />
     </svg>
+  );
+}
+
+function ProjectCard(props: {
+  app: "ainni" | "factfeast";
+  name: string;
+  description: string;
+  domain: string;
+  href: string;
+  logo: string;
+  logoAlt: string;
+  visitLabel: string;
+}) {
+  return (
+    <a class="project-card" data-app={props.app} href={props.href} target="_blank" rel="noreferrer">
+      <div class="project-card__topline">
+        <span class="project-logo">
+          <img class="project-logo__image" src={props.logo} alt={props.logoAlt} />
+        </span>
+        <ArrowUpRightIcon />
+      </div>
+
+      <div class="project-card__body">
+        <h2>{props.name}</h2>
+        <p>{props.description}</p>
+      </div>
+
+      <div class="project-card__footer">
+        <span>{props.domain}</span>
+        <span class="project-card__visit">
+          {props.visitLabel}
+          <ArrowUpRightIcon />
+        </span>
+      </div>
+    </a>
   );
 }
 
@@ -148,6 +191,32 @@ export default function App() {
                 {theme() === "dark" ? <SunIcon /> : <MoonIcon />}
               </button>
             </div>
+
+            <section class="projects" aria-labelledby="projects-title">
+              <p class="projects-title" id="projects-title">{t("projects.title")}</p>
+              <div class="project-grid">
+                <ProjectCard
+                  app="ainni"
+                  name="ainni"
+                  description={t("projects.ainni.description")}
+                  domain="ainni.app"
+                  href="https://ainni.app/"
+                  logo="/apps/ainni-logo.svg"
+                  logoAlt="ainni logo"
+                  visitLabel={t("projects.visit")}
+                />
+                <ProjectCard
+                  app="factfeast"
+                  name="Fact Feast"
+                  description={t("projects.factfeast.description")}
+                  domain="factfeast.app"
+                  href="https://factfeast.app/"
+                  logo="/apps/factfeast-logo.svg"
+                  logoAlt="Fact Feast logo"
+                  visitLabel={t("projects.visit")}
+                />
+              </div>
+            </section>
           </>
         </Show>
       </section>

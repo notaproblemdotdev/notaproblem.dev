@@ -22,6 +22,12 @@ export const dictionaries: Record<Locale, Record<string, string>> = {
     "hero.description":
       "If you have the idea I like - I can also develop apps for you.",
     "hero.descriptionSuffix": "That's it. See you.",
+    "projects.title": "Apps I'm building",
+    "projects.visit": "Visit app",
+    "projects.ainni.description":
+      "A quiet space for journaling, reflection, and everyday notes.",
+    "projects.factfeast.description":
+      "A game of estimation, perspective, and surprising facts.",
     "contact.email": "problem@notaproblem.dev",
     "contact.emailAriaLabel": "Contact us",
     "social.githubAriaLabel": "GitHub",
@@ -37,6 +43,12 @@ export const dictionaries: Record<Locale, Record<string, string>> = {
     "hero.description":
       "Jeśli masz ciekawy pomysł, a ja czas - to stworzę aplikację również dla Ciebie.",
     "hero.descriptionSuffix": "To tyle. Cześć.",
+    "projects.title": "Aplikacje, które tworzę",
+    "projects.visit": "Otwórz aplikację",
+    "projects.ainni.description":
+      "Spokojna przestrzeń na dziennik, refleksje i codzienne notatki.",
+    "projects.factfeast.description":
+      "Gra o szacowaniu, perspektywie i zaskakujących faktach.",
     "contact.email": "problem@notaproblem.dev",
     "contact.emailAriaLabel": "Napisz",
     "social.githubAriaLabel": "GitHub",
